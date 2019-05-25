@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box !important;
+}
+
+body{
+	background: #F08504 !important;
+	padding: 20px;
+	font-family: Arial;
+}
+
+.float-right{
+	margin-left: 10px;
+}
+
+.sublogo{
+	width: 150px;
+	height: 150px;
+	margin-right: 40px;
+}
+
+.fixSubLogo{
+	margin-right: 40px;	
+}
+/*.sublogo ~ h1{
+	padding-right: 10%;
+
+}*/
+
+.jumbotron{
+	background-color: #8C2351 !important;
+	color: white;
+	overflow: hidden;
+}
+
+.imageEffect{
+	height: 100%;
+}
+
+.backColor {
+	height: 500px ;
+}
+
+
+/*to make the text a little bit in the center of the image!*/
+.card-img-overlay{
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+
+.tbg{
+	background-color: rgba(0,0,0, 0.4);
+}
+
+
+.row {
+	/*margin: 8px -16px;*/
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  width: 33.33%;
+  /*display: none;  Hide columns by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  height: 100%;
+}
+
+.imageCard{
+	width: 100%;
+	height: 90%;
+}
+.test{
+	position: relative;
+	text-align: center;
+	color: white;
+
+}
+
+.bottom-right {
+  position: relative;
+  bottom: 16%;
+  /*right: 16px;*/
+}
+
+.bg-dark{
+	/*margin-bottom: 40%;*/
+	padding:10px 0px;
+	background-color: rgba(0,0,0, 0.9) !important;
+}
